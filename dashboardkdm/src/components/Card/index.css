@@ -1,0 +1,67 @@
+.card-item {
+  background-color: wheat;
+  box-shadow: inset;
+  height: 220px;
+  width: 30%;
+  margin: 30px;
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.card-heading {
+  color: midnightblue;
+  flex-shrink: 0;
+  margin-right: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.card-img {
+  width: 25%;
+}
+
+.span-element {
+  color: brown;
+}
+
+.button {
+  font-size: 10px;
+  background-color: transparent;
+  border-radius: 5px;
+  color: red;
+  height: 50px;
+  width: 90%;
+}
+
+.view-all-item {
+  color: red;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.alarm-icon {
+  color: #631515;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.no-jobs-para {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
